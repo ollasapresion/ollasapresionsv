@@ -1,0 +1,191 @@
+/*TITULO*/
+.company-title {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.company-title-text {
+    font-family: "Noto Serif Lao", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings: "wdth" 900;
+    font-size: 3rem;
+}
+
+.company-subtitle {
+    font-family: "Noto Serif Lao", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: italic;
+    font-variation-settings: "wdth" 700;
+    font-size: 2rem;
+    color: #555;
+}
+
+@media only screen and (max-width: 600px) {
+    .company-title-text {
+        font-size: 1.5rem;
+        padding-bottom: 6px;
+    }
+
+    .company-subtitle {
+        font-size: 1.2rem;
+    }
+}
+
+/*NAVBAR*/
+.navigation-bar {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.nav-link {
+    color: black !important;
+}
+
+.nav-link.active {
+    color: black !important;
+}
+
+/*CARRUSEL*/
+#carouselExampleCaptions {
+    /*border-style: solid;*/
+    width: 60%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media only screen and (max-width: 600px) {
+    #carouselExampleCaptions {
+        display: block;
+        width: 70%;
+        max-height: 70%;
+    }
+}
+
+h5 {
+    font-size: 2rem;
+}
+
+p {
+    font-size: 1.5rem;
+}
+
+/*TARJETAS*/
+.card-body h5 {
+    font-size: 2rem;
+    text-align: center;
+}
+
+.card-body p {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+    .card-body h5 {
+        font-size: 1.5rem;
+    }
+
+    .card-body p {
+        font-size: 1.25rem;
+    }
+
+    .card {
+        border-style: solid;
+        border-color: black;
+        padding: 1rem;
+        display: block;
+        width: 90%;
+        height: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+/*FOCUS STYLES*/
+.form-control:focus {
+    outline: 0 !important;
+    border-color: initial;
+    box-shadow: none;
+}
+
+.btn-pos {
+    position: relative;
+    z-index: 1;
+    left: -36px;
+}
+
+.input-group-text i {
+    cursor: pointer;
+}
+
+.input-group-append {
+    display: flex;
+    align-items: center;
+}
+
+.input-group-text {
+    border-left: none;
+}
+
+
+/*PARA SEARCHBAR*/
+
+.input-group {
+    display: flex;
+    align-items: center;
+  }
+  
+  .input-group .btn {
+    margin-left: -40px;
+    z-index: 100;
+  }
+  
+  .input-group .btn + .btn {
+    margin-left: 0;
+    z-index: 1;
+  }
+  
+  @media (max-width: 576px) {
+    .input-group .btn {
+      margin-left: -30px; /* Adjust for smaller screens */
+    }
+  }
+
+  /*BOTON WASAP*/
+
+  .btn-whatsapp {
+    display: block;
+    margin-top: 10px; /* Espacio entre  el texto y el botón */
+    text-align: center;
+    background-color: #25d366; /* Color personalizado del botón */
+    border-color: #25d366; /* Color personalizado del borde del botón */
+    color: white; /* Color del texto */
+    font-size: 25px;
+  }
+  
+  .btn-whatsapp:hover {
+    background-color: #1ebe5a; /* Color del botón al pasar el cursor */
+    border-color: #1ebe5a; /* Color del borde del botón al pasar el cursor */
+  }
+  
+  .card-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  @media (max-width: 576px) {
+    .btn-whatsapp {
+      font-size: 16px; /* Ajusta el tamaño del texto para pantallas más pequeñas */
+    }
+  }
+  
+  
+  
+  
+  
