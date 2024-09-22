@@ -112,12 +112,15 @@
       </button>
     </div>
   </div>
-  <!-- TARJETAS TARJETAS TARJETAS -->
+  <!-- TARJETAS TARJETAS TARJETAS, STARTS IN DIV CLASS CLO -->
   <div class="container">
     <div id="cardGroup" class="card-group row row-cols-1 row-cols-md-3 g-4">
+      <!-- INICIAR TARJETA 1 -->
       <div class="col">
         <div class="card">
-          <img src="CATALOGO/VALVULA_ACERO.png" class="card-img-top" alt="...">
+          <!-- Al hacer clic en la imagen, se activará el modal -->
+          <img src="CATALOGO/VALVULA_ACERO.png" class="card-img-top" alt="..." data-bs-toggle="modal"
+            data-bs-target="#imageModal1">
           <div class="card-body">
             <h5 class="card-title">Válvula reguladora acero inoxidable</h5>
             <p class="card-text">Válvula reguladora para olla de presión 80 kilopascales.</p>
@@ -128,10 +131,25 @@
           </div>
         </div>
       </div>
-      <!-- DIVISOR -->
+
+      <!-- Modal solo con la imagen para la primera tarjeta -->
+      <div class="modal fade" id="imageModal1" tabindex="-1" aria-labelledby="imageModalLabel1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-body">
+              <img src="CATALOGO/VALVULA_ACERO.png" class="img-fluid" alt="Válvula reguladora acero inoxidable">
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- CERRAR TARJETA 1 -->
+
+      <!-- INICIAR TARJETA 2 -->
       <div class="col">
         <div class="card">
-          <img src="CATALOGO/REGULADORA_ROCHEDO.png" class="card-img-top" alt="...">
+          <!-- Al hacer clic en la imagen, se activará el modal -->
+          <img src="CATALOGO/REGULADORA_ROCHEDO.png" class="card-img-top" alt="..." data-bs-toggle="modal"
+            data-bs-target="#imageModal2">
           <div class="card-body">
             <h5 class="card-title">Válvula reguladora rochedo</h5>
             <p class="card-text">Válvula reguladora rochedo tradicional.</p>
@@ -142,10 +160,24 @@
           </div>
         </div>
       </div>
-      <!-- DIVISOR -->
+
+      <!-- Modal solo con la imagen para la segunda tarjeta -->
+      <div class="modal fade" id="imageModal2" tabindex="-1" aria-labelledby="imageModalLabel2" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-body">
+              <img src="CATALOGO/REGULADORA_ROCHEDO.png" class="img-fluid" alt="Válvula reguladora rochedo">
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- CERRAR TARJETA 2 -->
+      <!-- TARJETA 3 (Agarradera para olla de presión) -->
       <div class="col">
         <div class="card">
-          <img src="CATALOGO/AGARRADERA_OLLA.png" class="card-img-top" alt="...">
+          <!-- Al hacer clic en la imagen, se activará el modal -->
+          <img src="CATALOGO/AGARRADERA_OLLA.png" class="card-img-top" alt="..." data-bs-toggle="modal"
+            data-bs-target="#imageModal3">
           <div class="card-body">
             <h5 class="card-title">Agarradera para olla de presión</h5>
             <p class="card-text">Oreja para Olla desde 2 L hasta 13 L</p>
@@ -156,10 +188,25 @@
           </div>
         </div>
       </div>
-      <!-- DIVISOR -->
+
+      <!-- Modal solo con la imagen para la tercera tarjeta -->
+      <div class="modal fade" id="imageModal3" tabindex="-1" aria-labelledby="imageModalLabel3" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-body">
+              <img src="CATALOGO/AGARRADERA_OLLA.png" class="img-fluid" alt="Agarradera para olla de presión">
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- CERRAR TARJETA 3 -->
+
+      <!-- TARJETA 4 (Válvula reguladora presto) -->
       <div class="col">
         <div class="card">
-          <img src="CATALOGO/REGULADORA_PRESTO.png" class="card-img-top" alt="...">
+          <!-- Al hacer clic en la imagen, se activará el modal -->
+          <img src="CATALOGO/REGULADORA_PRESTO.png" class="card-img-top" alt="..." data-bs-toggle="modal"
+            data-bs-target="#imageModal4">
           <div class="card-body">
             <h5 class="card-title">Válvula reguladora presto</h5>
             <p class="card-text">Válvula reguladora para presto clásica 15 libras de presión funciona para olla pequeña
@@ -171,10 +218,25 @@
           </div>
         </div>
       </div>
-      <!-- DIVISOR -->
+
+      <!-- Modal solo con la imagen para la cuarta tarjeta -->
+      <div class="modal fade" id="imageModal4" tabindex="-1" aria-labelledby="imageModalLabel4" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-body">
+              <img src="CATALOGO/REGULADORA_PRESTO.png" class="img-fluid" alt="Válvula reguladora presto">
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- CERRAR TARJETA 4 -->
+
+      <!-- TARJETA 5 (Empaque para olla presto) -->
       <div class="col">
         <div class="card">
-          <img src="CATALOGO/EMPAQUE_PRESTO.png" class="card-img-top" alt="...">
+          <!-- Al hacer clic en la imagen, se activará el modal -->
+          <img src="CATALOGO/EMPAQUE_PRESTO.png" class="card-img-top" alt="..." data-bs-toggle="modal"
+            data-bs-target="#imageModal5">
           <div class="card-body">
             <h5 class="card-title">Empaque para olla presto</h5>
             <p class="card-text">Empaque plano para olla de presión presto tradicional</p>
@@ -185,10 +247,25 @@
           </div>
         </div>
       </div>
-      <!-- DIVISOR -->
+
+      <!-- Modal solo con la imagen para la quinta tarjeta -->
+      <div class="modal fade" id="imageModal5" tabindex="-1" aria-labelledby="imageModalLabel5" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-body">
+              <img src="CATALOGO/EMPAQUE_PRESTO.png" class="img-fluid" alt="Empaque para olla presto">
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- CERRAR TARJETA 5 -->
+
+      <!-- TARJETA 6 (Mango inferior) -->
       <div class="col">
         <div class="card">
-          <img src="CATALOGO/MANGO_INFERIOR.png" class="card-img-top" alt="...">
+          <!-- Al hacer clic en la imagen, se activará el modal -->
+          <img src="CATALOGO/MANGO_INFERIOR.png" class="card-img-top" alt="..." data-bs-toggle="modal"
+            data-bs-target="#imageModal6">
           <div class="card-body">
             <h5 class="card-title">Mango inferior</h5>
             <p class="card-text">Mango inferior para olla de presión desde 4 L hasta 13 L</p>
@@ -199,13 +276,27 @@
           </div>
         </div>
       </div>
-      <!-- DIVISOR -->
+
+      <!-- Modal solo con la imagen para la sexta tarjeta -->
+      <div class="modal fade" id="imageModal6" tabindex="-1" aria-labelledby="imageModalLabel6" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-body">
+              <img src="CATALOGO/MANGO_INFERIOR.png" class="img-fluid" alt="Mango inferior">
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- CERRAR TARJETA 6 -->
+      <!-- TARJETA 7 (Mango superior para olla rochedo) -->
       <div class="col">
         <div class="card">
-          <img src="CATALOGO/SUPERIOR_ROCHEDO.png" class="card-img-top" alt="...">
+          <!-- Al hacer clic en la imagen, se activará el modal -->
+          <img src="CATALOGO/SUPERIOR_ROCHEDO.png" class="card-img-top" alt="..." data-bs-toggle="modal"
+            data-bs-target="#imageModal7">
           <div class="card-body">
             <h5 class="card-title">Mango superior para olla rochedo</h5>
-            <p class="card-text">Mango superior para olla de presión rochero tradicional</p>
+            <p class="card-text">Mango superior para olla de presión rochedo tradicional</p>
             <a href="https://wa.me/50361091000?text=Estoy%20interesado%20en%20Mango%20superior%20para%20olla%20rochedo"
               class="btn btn-success btn-whatsapp">
               Chatear por WhatsApp
@@ -213,10 +304,25 @@
           </div>
         </div>
       </div>
-      <!-- DIVISOR -->
+
+      <!-- Modal solo con la imagen para la séptima tarjeta -->
+      <div class="modal fade" id="imageModal7" tabindex="-1" aria-labelledby="imageModalLabel7" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-body">
+              <img src="CATALOGO/SUPERIOR_ROCHEDO.png" class="img-fluid" alt="Mango superior para olla rochedo">
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- CERRAR TARJETA 7 -->
+
+      <!-- TARJETA 8 (Válvula de alivio) -->
       <div class="col">
         <div class="card">
-          <img src="CATALOGO/VALVULA_ALIVIO.png" class="card-img-top" alt="...">
+          <!-- Al hacer clic en la imagen, se activará el modal -->
+          <img src="CATALOGO/VALVULA_ALIVIO.png" class="card-img-top" alt="..." data-bs-toggle="modal"
+            data-bs-target="#imageModal8">
           <div class="card-body">
             <h5 class="card-title">Válvula de alivio</h5>
             <p class="card-text">Válvula para olla brasileña</p>
@@ -227,10 +333,25 @@
           </div>
         </div>
       </div>
-      <!-- DIVISOR -->
+
+      <!-- Modal solo con la imagen para la octava tarjeta -->
+      <div class="modal fade" id="imageModal8" tabindex="-1" aria-labelledby="imageModalLabel8" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-body">
+              <img src="CATALOGO/VALVULA_ALIVIO.png" class="img-fluid" alt="Válvula de alivio">
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- CERRAR TARJETA 8 -->
+
+      <!-- TARJETA 9 (Válvula reguladora ekco) -->
       <div class="col">
         <div class="card">
-          <img src="CATALOGO/REGULADORA_ECKO.png" class="card-img-top" alt="...">
+          <!-- Al hacer clic en la imagen, se activará el modal -->
+          <img src="CATALOGO/REGULADORA_ECKO.png" class="card-img-top" alt="..." data-bs-toggle="modal"
+            data-bs-target="#imageModal9">
           <div class="card-body">
             <h5 class="card-title">Válvula reguladora ekco</h5>
             <p class="card-text">Para modelos ekco vasconia y ekco deluxe</p>
@@ -241,10 +362,25 @@
           </div>
         </div>
       </div>
-      <!-- DIVISOR -->
+
+      <!-- Modal solo con la imagen para la novena tarjeta -->
+      <div class="modal fade" id="imageModal9" tabindex="-1" aria-labelledby="imageModalLabel9" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-body">
+              <img src="CATALOGO/REGULADORA_ECKO.png" class="img-fluid" alt="Válvula reguladora ekco">
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- CERRAR TARJETA 9 -->
+
+      <!-- TARJETA 10 (Válvula reguladora y tubo exhaustivo) -->
       <div class="col">
         <div class="card">
-          <img src="CATALOGO/PULVERIZADOR.png" class="card-img-top" alt="...">
+          <!-- Al hacer clic en la imagen, se activará el modal -->
+          <img src="CATALOGO/PULVERIZADOR.png" class="card-img-top" alt="..." data-bs-toggle="modal"
+            data-bs-target="#imageModal10">
           <div class="card-body">
             <h5 class="card-title">Válvula reguladora y tubo exhaustivo</h5>
             <p class="card-text">Válvula reguladora y tubo exhaustivo con pulverizador para olla de presión</p>
@@ -255,10 +391,25 @@
           </div>
         </div>
       </div>
-      <!-- DIVISOR -->
+
+      <!-- Modal solo con la imagen para la décima tarjeta -->
+      <div class="modal fade" id="imageModal10" tabindex="-1" aria-labelledby="imageModalLabel10" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-body">
+              <img src="CATALOGO/PULVERIZADOR.png" class="img-fluid" alt="Válvula reguladora y tubo exhaustivo">
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- CERRAR TARJETA 10 -->
+
+      <!-- TARJETA 11 (Tubo exhaustivo para válvula brasileña) -->
       <div class="col">
         <div class="card">
-          <img src="CATALOGO/EXHAUSTIVO_BRAZILEÑA.png" class="card-img-top" alt="...">
+          <!-- Al hacer clic en la imagen, se activará el modal -->
+          <img src="CATALOGO/EXHAUSTIVO_BRAZILEÑA.png" class="card-img-top" alt="..." data-bs-toggle="modal"
+            data-bs-target="#imageModal11">
           <div class="card-body">
             <h5 class="card-title">Tubo exhaustivo para válvula brasileña</h5>
             <p class="card-text">Tubo exhaustivo para válvula reguladora brasileña</p>
@@ -269,10 +420,26 @@
           </div>
         </div>
       </div>
-      <!-- DIVISOR -->
+
+      <!-- Modal solo con la imagen para la undécima tarjeta -->
+      <div class="modal fade" id="imageModal11" tabindex="-1" aria-labelledby="imageModalLabel11" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-body">
+              <img src="CATALOGO/EXHAUSTIVO_BRAZILEÑA.png" class="img-fluid"
+                alt="Tubo exhaustivo para válvula brasileña">
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- CERRAR TARJETA 11 -->
+
+      <!-- TARJETA 12 (Pistón de seguridad) -->
       <div class="col">
         <div class="card">
-          <img src="CATALOGO/PISTON_SEGURIDAD.png" class="card-img-top" alt="...">
+          <!-- Al hacer clic en la imagen, se activará el modal -->
+          <img src="CATALOGO/PISTON_SEGURIDAD.png" class="card-img-top" alt="..." data-bs-toggle="modal"
+            data-bs-target="#imageModal12">
           <div class="card-body">
             <h5 class="card-title">Pistón de seguridad</h5>
             <p class="card-text">Pistón de seguridad de mango Superior</p>
@@ -283,10 +450,25 @@
           </div>
         </div>
       </div>
-      <!-- DIVISOR -->
+
+      <!-- Modal solo con la imagen para la duodécima tarjeta -->
+      <div class="modal fade" id="imageModal12" tabindex="-1" aria-labelledby="imageModalLabel12" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-body">
+              <img src="CATALOGO/PISTON_SEGURIDAD.png" class="img-fluid" alt="Pistón de seguridad">
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- CERRAR TARJETA 12 -->
+
+      <!-- TARJETA 13 (Válvula de alivio olla presto) -->
       <div class="col">
         <div class="card">
-          <img src="CATALOGO/SEGURIDAD_PRESTO.png" class="card-img-top" alt="...">
+          <!-- Al hacer clic en la imagen, se activará el modal -->
+          <img src="CATALOGO/SEGURIDAD_PRESTO.png" class="card-img-top" alt="..." data-bs-toggle="modal"
+            data-bs-target="#imageModal13">
           <div class="card-body">
             <h5 class="card-title">Válvula de alivio olla presto</h5>
             <p class="card-text">Válvula de alivio o de seguridad olla de presión presto clásica</p>
@@ -297,10 +479,25 @@
           </div>
         </div>
       </div>
-      <!-- DIVISOR -->
+
+      <!-- Modal solo con la imagen para la tarjeta 13 -->
+      <div class="modal fade" id="imageModal13" tabindex="-1" aria-labelledby="imageModalLabel13" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-body">
+              <img src="CATALOGO/SEGURIDAD_PRESTO.png" class="img-fluid" alt="Válvula de alivio olla presto">
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- CERRAR TARJETA 13 -->
+
+      <!-- TARJETA 14 (Mango inferior presto) -->
       <div class="col">
         <div class="card">
-          <img src="CATALOGO/INFERIOR_PRESTO.png" class="card-img-top" alt="...">
+          <!-- Al hacer clic en la imagen, se activará el modal -->
+          <img src="CATALOGO/INFERIOR_PRESTO.png" class="card-img-top" alt="..." data-bs-toggle="modal"
+            data-bs-target="#imageModal14">
           <div class="card-body">
             <h5 class="card-title">Mango inferior presto</h5>
             <p class="card-text">Mango inferior para olla de presión presto clásica</p>
@@ -311,13 +508,28 @@
           </div>
         </div>
       </div>
-      <!-- DIVISOR -->
+
+      <!-- Modal solo con la imagen para la tarjeta 14 -->
+      <div class="modal fade" id="imageModal14" tabindex="-1" aria-labelledby="imageModalLabel14" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-body">
+              <img src="CATALOGO/INFERIOR_PRESTO.png" class="img-fluid" alt="Mango inferior presto">
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- CERRAR TARJETA 14 -->
+
+      <!-- TARJETA 15 (Mango superior para olla presto) -->
       <div class="col">
         <div class="card">
-          <img src="CATALOGO/SUPERIOR_PRESTO.png" class="card-img-top" alt="...">
+          <!-- Al hacer clic en la imagen, se activará el modal -->
+          <img src="CATALOGO/SUPERIOR_PRESTO.png" class="card-img-top" alt="..." data-bs-toggle="modal"
+            data-bs-target="#imageModal15">
           <div class="card-body">
             <h5 class="card-title">Mango superior para olla presto</h5>
-            <p class="card-text">Mango Superior para olla presto clásica</p>
+            <p class="card-text">Mango superior para olla presto clásica</p>
             <a href="https://wa.me/50361091000?text=Estoy%20interesado%20en%20Mango%20superior%20para%20olla%20presto"
               class="btn btn-success btn-whatsapp">
               Chatear por WhatsApp
@@ -325,10 +537,25 @@
           </div>
         </div>
       </div>
-      <!-- DIVISOR -->
+
+      <!-- Modal solo con la imagen para la tarjeta 15 -->
+      <div class="modal fade" id="imageModal15" tabindex="-1" aria-labelledby="imageModalLabel15" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-body">
+              <img src="CATALOGO/SUPERIOR_PRESTO.png" class="img-fluid" alt="Mango superior para olla presto">
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- CERRAR TARJETA 15 -->
+
+      <!-- TARJETA 16 (Mango Superior para olla de presión) -->
       <div class="col">
         <div class="card">
-          <img src="CATALOGO/SUPERIOR_GENERAL.png" class="card-img-top" alt="...">
+          <!-- Al hacer clic en la imagen, se activará el modal -->
+          <img src="CATALOGO/SUPERIOR_GENERAL.png" class="card-img-top" alt="..." data-bs-toggle="modal"
+            data-bs-target="#imageModal16">
           <div class="card-body">
             <h5 class="card-title">Mango Superior para olla</h5>
             <p class="card-text">Mango superior para olla de presión desde 4 L hasta 13 L</p>
@@ -339,10 +566,25 @@
           </div>
         </div>
       </div>
-      <!-- DIVISOR -->
+
+      <!-- Modal solo con la imagen para la tarjeta 16 -->
+      <div class="modal fade" id="imageModal16" tabindex="-1" aria-labelledby="imageModalLabel16" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-body">
+              <img src="CATALOGO/SUPERIOR_GENERAL.png" class="img-fluid" alt="Mango Superior para olla">
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- CERRAR TARJETA 16 -->
+
+      <!-- TARJETA 17 (Empaque para olla de presión) -->
       <div class="col">
         <div class="card">
-          <img src="CATALOGO/EMPAQUE_GENERAL.png" class="card-img-top" alt="...">
+          <!-- Al hacer clic en la imagen, se activará el modal -->
+          <img src="CATALOGO/EMPAQUE_GENERAL.png" class="card-img-top" alt="..." data-bs-toggle="modal"
+            data-bs-target="#imageModal17">
           <div class="card-body">
             <h5 class="card-title">Empaque para olla de presión</h5>
             <p class="card-text">Empaque para olla de presión desde 2 L hasta 23 L</p>
@@ -353,10 +595,25 @@
           </div>
         </div>
       </div>
-      <!-- DIVISOR -->
+
+      <!-- Modal solo con la imagen para la tarjeta 17 -->
+      <div class="modal fade" id="imageModal17" tabindex="-1" aria-labelledby="imageModalLabel17" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-body">
+              <img src="CATALOGO/EMPAQUE_GENERAL.png" class="img-fluid" alt="Empaque para olla de presión">
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- CERRAR TARJETA 17 -->
+
+      <!-- TARJETA 18 (Mango Superior para olla Oster) -->
       <div class="col">
         <div class="card">
-          <img src="CATALOGO/SUPERIOR_OSTER.png" class="card-img-top" alt="...">
+          <!-- Al hacer clic en la imagen, se activará el modal -->
+          <img src="CATALOGO/SUPERIOR_OSTER.png" class="card-img-top" alt="..." data-bs-toggle="modal"
+            data-bs-target="#imageModal18">
           <div class="card-body">
             <h5 class="card-title">Mango Superior para olla Oster</h5>
             <p class="card-text">Mango superior para oster, black and decker y tramontina</p>
@@ -367,7 +624,19 @@
           </div>
         </div>
       </div>
-      <!-- DIVISOR -->
+
+      <!-- Modal solo con la imagen para la tarjeta 18 -->
+      <div class="modal fade" id="imageModal18" tabindex="-1" aria-labelledby="imageModalLabel18" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-body">
+              <img src="CATALOGO/SUPERIOR_OSTER.png" class="img-fluid" alt="Mango Superior para olla Oster">
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- CERRAR TARJETA 18 -->
+
     </div>
   </div>
   <!--TARJETAS-->
